@@ -8,7 +8,7 @@
 # to enable this service:
 #
 # torr_server_enable: Set to yes to enable the torr-server service.
-#			Default: no
+#    Default: no
 
 . /etc/rc.subr
 name=torr_server
@@ -16,6 +16,6 @@ rcvar=${name}_enable
 pidfile="/var/run/torr-server.pid"
 
 command="/usr/sbin/daemon"
-command_args="-f -p ${pidfile} /usr/local/lib/torr-server/TorrServer-freebsd-amd64"
+command_args="-f -P ${pidfile} /usr/local/lib/torr-server/TorrServer-freebsd-amd64"
 load_rc_config ${name}
 run_rc_command "$1"
