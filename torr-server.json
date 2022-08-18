@@ -4,10 +4,7 @@
   "release": "13.1-RELEASE",
   "artifact": "https://github.com/NotDead/iocage-plugin-TorrServer.git",
   "properties": {
-    "boot": 1,
-    "bpf": 1,
-    "dhcp": 1,
-    "vnet": 1
+    "nat": 1
   },
   "pkgs": [
     "curl"
