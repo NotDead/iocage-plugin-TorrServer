@@ -10,6 +10,7 @@
     "vnet": 1
   },
   "pkgs": [
+    "curl"
 ],
 "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
 "fingerprints": {
