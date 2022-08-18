@@ -2,7 +2,7 @@
 
 ## plugin to install TorrServer on trunas
 
-https://github.com/YouROK/TorrServer
+<https://github.com/YouROK/TorrServer>
 
 ## install
 

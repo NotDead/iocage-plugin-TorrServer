@@ -9,6 +9,7 @@
 #
 # torr_server_enable: Set to yes to enable the torr-server service.
 #    Default: no
+# shellcheck disable=SC1091,2034,2154
 
 . /etc/rc.subr
 name=torr_server
